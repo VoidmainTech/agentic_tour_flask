@@ -1,0 +1,18 @@
+1. open whats app and download agentic_tour_flask.rar file
+2.right click on the file click on extract all
+
+3.open the extracted folder and copy the folder path
+Ex: cd C:\Agentic_AI_Tour_Planner_Flask\agentic_tour_flask
+ 
+ 4. Create a private `.env` file in the project folder by copying `.env.example`.
+    Add your Gemini API key, Gmail address, and Gmail app password to `.env`.
+    Do not share or commit `.env`; it is excluded by `.gitignore`.
+
+ 5. open anaconda prompt and run the following commands
+   cd C:\Agentic_AI_Tour_Planner_Flask\agentic_tour_flask
+   conda activate local-rag
+   python app.py
+   
+ 6. open browser and run the following url
+	http://127.0.0.1:5000
+7. submit input in website and test the output created plan and also check the submited email weather you received the tour plan conformation email or not
